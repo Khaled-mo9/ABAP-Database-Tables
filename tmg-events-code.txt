@@ -1,0 +1,50 @@
+*----------------------------------------------------------------------*
+***INCLUDE LZEMPLOYEE_TF02.
+*----------------------------------------------------------------------*
+
+FORM SET_DCREATOIN.
+
+  ZEMPLOYEE_T-CREATED_BY   = sy-uname. " user name
+  ZEMPLOYEE_T-CREATED_DATE = sy-datum. " system date
+
+
+ENDFORM.
+
+
+FORM SET_CHANGING.
+
+  TYPES: BEGIN OF tp_itab.
+         INCLUDE STRUCTURE ZEMPLOYEE_T.
+         INCLUDE STRUCTURE vimtbflags.
+  TYPES: END OF tp_itab.
+
+FIELD-SYMBOLS <fs> TYPE tp_itab.
+
+LOOP AT total ASSIGNING <fs> CASTING.
+
+  IF  <fs>-VIM_ACTION = 'U'.
+      <fs>-CHANGED_BY   = sy-uname. " user name
+      <fs>-CHANGED_DATE = sy-datum. " system date
+  ENDIF.
+
+ENDLOOP.
+
+
+
+
+ENDFORM.
+
+
+FORM SET_DELETION.
+
+
+  IF sy-uname = 'ABAP.K.MOH'.
+     MESSAGE 'You are admin - this record will be deleted...!' TYPE 'S'.
+  else.
+     MESSAGE 'Only admin can be delete this record' TYPE 'E'.
+
+  ENDIF.
+
+
+
+ENDFORM.
