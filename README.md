@@ -82,19 +82,18 @@ The SAP Data Dictionary (DDIC) is a crucial component of the SAP system, used to
 
 *Structure of the `ZDEPARTMENT_T` table, showing fields and data types.*
 
-![Environment](Screens/environment.png)
+![Utilities](Screens/utilities.png)
 
-*Navigate the Environment menu to access events and other settings.*
+*Access the Utilities menu to generate table maintenance events.*
 
 ![Table Maintenance Generator](Screens/tmg.png)
 
 *Settings for generating table maintenance dialogs for `ZEMPLOYEE_T`.*
 
-![Utilities](Screens/utilities.png)
+![Environment](Screens/environment.png)
 
-*Access the Utilities menu to generate table maintenance events.*
+*Navigate the Environment menu to access events and other settings.*
 
-*To go to Events:*
 ![Events](Screens/events.png)
 
 *View and manage form routines for table maintenance in `ZEMPLOYEE_T`.*
