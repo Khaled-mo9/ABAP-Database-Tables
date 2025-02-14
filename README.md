@@ -16,6 +16,17 @@ The SAP Data Dictionary (DDIC) is a crucial component of the SAP system, used to
 - **Data Integrity**: DDIC helps maintain data integrity and consistency by defining relationships and constraints.
 - **Performance Optimization**: Properly defined data structures can improve system performance and retrieval efficiency.
 
+### Naming Conventions
+
+- Every object, including tables and other data structures, should start with `Z` or `X` to indicate custom development.
+
+### Relevant SAP Transaction Codes
+
+- **SE11**: Data Dictionary - Use to create and manage data dictionary objects.
+- **SE12**: Data Dictionary Display - Use to view table definitions.
+- **SE16N**: General Table Display - Use to view and analyze table data.
+- **SM30**: Table View Maintenance - Use to maintain table entries.
+
 ### Project Overview
 
 #### `ZEMPLOYEE_T` Table
@@ -53,3 +64,5 @@ The SAP Data Dictionary (DDIC) is a crucial component of the SAP system, used to
   - `CREATED_DATE`: Created Date
   - `CHANGED_BY`: Changed By
   - `CHANGED_DATE`: Changed Date
+  ## screens :
+![Data dictionary](Screens/ddic.png)
