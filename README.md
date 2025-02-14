@@ -76,6 +76,10 @@ The SAP Data Dictionary (DDIC) is a crucial component of the SAP system, used to
 
 *Structure of the `ZEMPLOYEE_T` table, detailing fields and data types.*
 
+*The ZEMPLOYEE_STRUCT structure is used in both the ZEMPLOYEE_T and ZDEPARTMENT_T tables to track metadata. It includes fields like CREATED_BY, CREATED_DATE, CHANGED_BY, and CHANGED_DATE, providing a consistent way to audit who created and modified records and when.*
+
+![Structure Table](Screens/struct.png)
+
 ![Employee Table](Screens/emp-table.png)
 
 *Structure of the `ZDEPARTMENT_T` table, showing fields and data types.*
