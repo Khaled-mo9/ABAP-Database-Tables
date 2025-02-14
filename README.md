@@ -82,6 +82,22 @@ The SAP Data Dictionary (DDIC) is a crucial component of the SAP system, used to
 
 *Structure of the `ZDEPARTMENT_T` table, showing fields and data types.*
 
+![Employee ID Data Element](Screens/de.png)
+
+*Data element `ZEMP_ID` for Employee ID, showing its domain and data type.*
+
+![Employee ID Field Label](Screens/de-fl.png)
+
+*Field label settings for the `ZEMP_ID` data element, detailing different label lengths.*
+
+![Gender Domain](Screens/d.png)
+
+*Display of the `ZEMP_GENDER` domain, showing the value range for gender options.*
+
+![Employee ID Domain](Screens/d-vl.png)
+
+*Domain definition for `ZEMP_ID`, specifying data type and format.*
+
 ![Utilities](Screens/utilities.png)
 
 *Access the Utilities menu to generate table maintenance events.*
