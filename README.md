@@ -2,6 +2,10 @@
 
 Repository for managing and documenting SAP DDIC database tables. Includes table definitions, data elements, domain structures, and related ABAP code for data manipulation and integration.
 
+## Introduction
+
+This project is designed to streamline the management of employee and department data within SAP systems, ensuring data integrity and consistency.
+
 ## SAP DDIC Project: Employee and Department Tables
 
 ### Description
@@ -65,7 +69,18 @@ The SAP Data Dictionary (DDIC) is a crucial component of the SAP system, used to
   - `CREATED_DATE`: Created Date
   - `CHANGED_BY`: Changed By
   - `CHANGED_DATE`: Changed Date
-  ## screens :
+
+#### `ZEMPLOYEE_STRUCT` Table
+
+- **Purpose**: Used to track metadata for audit purposes in both `ZEMPLOYEE_T` and `ZDEPARTMENT_T` tables.
+
+- **Key Fields**:
+  - `CREATED_BY`: The user who created the entry
+  - `CREATED_DATE`: Date of creation
+  - `CHANGED_BY`: User who last modified the entry
+  - `CHANGED_DATE`: Date of last modification
+
+## Screens from Project:
   
 *The initial screen for creating and managing **(DDIC)** database tables in the ABAP Dictionary.*
 
@@ -83,7 +98,9 @@ providing a consistent way to audit who created and modified records and when.*
 
 *Structure of the `ZEMPLOYEE_T` table, detailing fields and data types.*
 
-![Employee Table](Screens/emp-table.png)
+<p align="center">
+  <img src="Screens/emp-table.png" alt="Employee Table" width="600"/>
+</p>
 
 *Structure of the `ZDEPARTMENT_T` table, showing fields and data types.*
 
@@ -120,12 +137,3 @@ providing a consistent way to audit who created and modified records and when.*
 *View and manage form routines for table maintenance in `ZEMPLOYEE_T`.*
 
 ![Events](Screens/events.png)
-
-
-
-
-
-
-
-
-
