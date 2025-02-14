@@ -68,13 +68,14 @@ The SAP Data Dictionary (DDIC) is a crucial component of the SAP system, used to
   
 ![Data Dictionary](Screens/ddic.png)
 
-*The initial screen for creating and managing database tables in the ABAP Dictionary.*
+*The initial screen for creating and managing **(DDIC)** database tables in the ABAP Dictionary.*
 
 ![ERP](Screens/erp.png)
 
 *Diagram showing the foreign key relationship between `ZDEPARTMENT_T` and `ZEMPLOYEE_T` tables.*
 
 ![Employee Table](Screens/emp-table.png)
+
 *Structure of the `ZEMPLOYEE_T` table, detailing fields and data types.*
 
 ![Department Table](Screens/dept-table.png)
@@ -85,14 +86,13 @@ The SAP Data Dictionary (DDIC) is a crucial component of the SAP system, used to
 
 *Navigate the Environment menu to access events and other settings.*
 
-*To go to TMG:*
 ![Table Maintenance Generator](Screens/tmg.png)
 
 *Settings for generating table maintenance dialogs for `ZEMPLOYEE_T`.*
 
 ![Utilities](Screens/utilities.png)
 
-*Access the Utilities menu to generate table maintenance views.*
+*Access the Utilities menu to generate table maintenance events.*
 
 *To go to Events:*
 ![Events](Screens/events.png)
