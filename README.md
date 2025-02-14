@@ -23,6 +23,7 @@ The SAP Data Dictionary (DDIC) is a crucial component of the SAP system, used to
 ### Relevant SAP Transaction Codes
 
 - **SE11**: Data Dictionary - Use to create and manage data dictionary objects.
+- **SE14**: Database Utility - Use for database table maintenance tasks like adjusting, deleting, or activating tables.
 - **SE12**: Data Dictionary Display - Use to view table definitions.
 - **SE16N**: General Table Display - Use to view and analyze table data.
 - **SM30**: Table View Maintenance - Use to maintain table entries.
