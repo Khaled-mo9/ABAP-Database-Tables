@@ -83,66 +83,66 @@ The SAP Data Dictionary (DDIC) is a crucial component of the SAP system, used to
 ## Screens from Project:
 
 <p align="center">
-  <em>The initial screen for creating and managing (DDIC) database tables in the ABAP Dictionary.</em><br>
+  <em>The initial screen for creating and managing (DDIC) database tables in the ABAP Dictionary.</em><br><br>
   <img src="Screens/ddic.png" alt="Data Dictionary" width="600"/>
 </p>
 
 <p align="center">
-  <em>Diagram showing the foreign key relationship between ZDEPARTMENT_T and ZEMPLOYEE_T tables.</em><br>
+  <em>Diagram showing the foreign key relationship between ZDEPARTMENT_T and ZEMPLOYEE_T tables.</em><br><br>
   <img src="Screens/erp.png" alt="ERP" width="600"/>
 </p>
 
 <p align="center">
-  <em>The ZEMPLOYEE_STRUCT structure is used in both the ZEMPLOYEE_T and ZDEPARTMENT_T tables to track metadata. It includes fields like CREATED_BY, CREATED_DATE, CHANGED_BY, and CHANGED_DATE, providing a consistent way to audit who created and modified records and when.</em><br>
+  <em>The ZEMPLOYEE_STRUCT structure is used in both the ZEMPLOYEE_T and ZDEPARTMENT_T tables to track metadata. It includes fields like CREATED_BY, CREATED_DATE, CHANGED_BY, and CHANGED_DATE, providing a consistent way to audit who created and modified records and when.</em><br><br>
   <img src="Screens/struct.png" alt="Structure Table" width="600"/>
 </p>
 
 <p align="center">
-  <em>Structure of the ZEMPLOYEE_T table, detailing fields and data types.</em><br>
+  <em>Structure of the ZEMPLOYEE_T table, detailing fields and data types.</em><br><br>
   <img src="Screens/emp-table.png" alt="Employee Table" width="600"/>
 </p>
 
 <p align="center">
-  <em>Structure of the ZDEPARTMENT_T table, showing fields and data types.</em><br>
+  <em>Structure of the ZDEPARTMENT_T table, showing fields and data types.</em><br><br>
   <img src="Screens/dept-table.png" alt="Department Table" width="600"/>
 </p>
 
 <p align="center">
-  <em>Data element ZEMP_ID for Employee ID, showing its domain and data type.</em><br>
+  <em>Data element ZEMP_ID for Employee ID, showing its domain and data type.</em><br><br>
   <img src="Screens/de.png" alt="Employee ID Data Element" width="600"/>
 </p>
 
 <p align="center">
-  <em>Field label settings for the ZEMP_ID data element, detailing different label lengths.</em><br>
+  <em>Field label settings for the ZEMP_ID data element, detailing different label lengths.</em><br><br>
   <img src="Screens/de-fl.png" alt="Employee ID Field Label" width="600"/>
 </p>
 
 <p align="center">
-  <em>Display of the ZEMP_GENDER domain, showing the value range for gender options.</em><br>
+  <em>Display of the ZEMP_GENDER domain, showing the value range for gender options.</em><br><br>
   <img src="Screens/d.png" alt="Gender Domain" width="600"/>
 </p>
 
 <p align="center">
-  <em>Domain definition for ZEMP_ID, specifying data type and format.</em><br>
+  <em>Domain definition for ZEMP_ID, specifying data type and format.</em><br><br>
   <img src="Screens/d-vr.png" alt="Employee ID Domain" width="600"/>
 </p>
 
 <p align="center">
-  <em>Access the Utilities menu to generate table maintenance events.</em><br>
+  <em>Access the Utilities menu to generate table maintenance events.</em><br><br>
   <img src="Screens/utilities.png" alt="Utilities" width="600"/>
 </p>
 
 <p align="center">
-  <em>Settings for generating table maintenance dialogs for ZEMPLOYEE_T.</em><br>
+  <em>Settings for generating table maintenance dialogs for ZEMPLOYEE_T.</em><br><br>
   <img src="Screens/tmg.png" alt="Table Maintenance Generator" width="600"/>
 </p>
 
 <p align="center">
-  <em>Navigate the Environment menu to access events and other settings.</em><br>
+  <em>Navigate the Environment menu to access events and other settings.</em><br><br>
   <img src="Screens/environment.png" alt="Environment" width="600"/>
 </p>
 
 <p align="center">
-  <em>View and manage form routines for table maintenance in ZEMPLOYEE_T.</em><br>
+  <em>View and manage form routines for table maintenance in ZEMPLOYEE_T.</em><br><br>
   <img src="Screens/events.png" alt="Events" width="600"/>
 </p>
