@@ -146,3 +146,113 @@ The SAP Data Dictionary (DDIC) is a crucial component of the SAP system, used to
   <em>View and manage form routines for table maintenance in ZEMPLOYEE_T.</em><br><br>
   <img src="Screens/events.png" alt="Events" width="600"/>
 </p>
+*********************************************************************************************************
+*********************************************************************************************************
+****************************************VIEWS************************************************************
+*********************************************************************************************************
+*********************************************************************************************************
+
+<h2 align="center">Database View (ZEMPLOYEE_T_DV)</h2>
+<p align="center">
+  A database view that combines data from employee and department tables, providing a comprehensive view of employee information along with their department details. This view is useful for reporting and data analysis purposes.
+</p>
+
+[Database View Screenshots]
+
+<p align="center">
+  <em>Database View Configuration showing the join between ZEMPLOYEE_T and ZDEPARTMENT_T tables using DEPT_ID.</em><br><br>
+  <img src="Screens/dv-01" alt="Database View Join Configuration" width="600"/>
+</p>
+
+<p align="center">
+  <em>View Fields configuration displaying all fields from both tables with their respective data types and lengths.</em><br><br>
+  <img src="Screens/dv-02" alt="View Fields Configuration" width="600"/>
+</p>
+
+<p align="center">
+  <em>Sample data showing the combined employee and department information from the database view.</em><br><br>
+  <img src="Screens/dv-03" alt="View Sample Data" width="600"/>
+</p>
+
+<hr>
+
+<h2 align="center">Projection View (ZEMPLOYEE_T_PV)</h2>
+<p align="center">
+  A projection view that selects specific fields from the employee table, offering a focused view of employee information. This view is particularly useful when only specific employee attributes are needed.
+</p>
+
+[Projection View Screenshots]
+
+<p align="center">
+  <em>Projection View Configuration (ZEMPLOYEE_T_PV) shows selected employee table fields with their data elements and properties.</em><br><br>
+  <img src="Screens/pv-01" alt="Projection View Configuration" width="600"/>
+</p>
+
+<p align="center">
+  <em>Sample data displaying employee information through the projection view, including personal details and department assignments.</em><br><br>
+  <img src="Screens/pv-02" alt="Projection View Data" width="600"/>
+</p>
+
+<hr>
+
+<h2 align="center">Maintenance View (ZEMPLOYEE_T_MV)</h2>
+<p align="center">
+  A maintenance view that enables data maintenance while preserving the relationship between employee and department information. This view is designed for data updates and modifications with referential integrity.
+</p>
+
+[Maintenance View Screenshots]
+
+<p align="center">
+  <em>Maintenance View configuration showing the relationship between Employee and Department tables using DEPT_ID as the join condition.</em><br><br>
+  <img src="Screens/mv-01" alt="Maintenance View Join Configuration" width="600"/>
+</p>
+
+<p align="center">
+  <em>View Fields configuration displaying all fields from both tables with their technical specifications including data elements, types, and lengths.</em><br><br>
+  <img src="Screens/mv-02" alt="Maintenance View Fields" width="600"/>
+</p>
+
+<p align="center">
+  <em>Sample data display from the Maintenance View (ZEMPLOYEE_T_MV) showing basic employee information like ID, DOB, Gender, and Email.</em><br><br>
+  <img src="Screens/mv-03" alt="Maintenance View Data" width="600"/>
+</p>
+
+<hr>
+
+<h2 align="center">Help View (ZEMPLOYEE_T_HV)</h2>
+<p align="center">
+  A help view that provides quick access to essential employee and department information. This simplified view is designed for reference purposes, showing only key fields needed for basic lookups.
+</p>
+
+[Help View Screenshots]
+
+<p align="center">
+  <em>Help View join configuration displaying the relationship between Employee and Department tables using DEPT_ID field.</em><br><br>
+  <img src="Screens/hv-01" alt="Help View Join Configuration" width="600"/>
+</p>
+
+<p align="center">
+  <em>Help View (ZEMPLOYEE_T_HV) field configuration showing selected fields (EMP_ID, EMP_NAME, DEPT_NAME) with their technical details.</em><br><br>
+  <img src="Screens/hv-02" alt="Help View Fields Configuration" width="600"/>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
