@@ -225,6 +225,7 @@ The SAP Data Dictionary (DDIC) is a crucial component of the SAP system, used to
 <h2 align="center">Help View (ZEMPLOYEE_T_HV)</h2>
 <p align="center">
   A help view that provides quick access to essential employee and department information. This simplified view is designed for reference purposes, showing only key fields needed for basic lookups.
+  It is used in search help.
 </p>
 
 [Help View Screenshots]
