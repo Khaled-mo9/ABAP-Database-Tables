@@ -164,17 +164,17 @@ The SAP Data Dictionary (DDIC) is a crucial component of the SAP system, used to
 
 <p align="center">
   <em>Database View Configuration showing the join between ZEMPLOYEE_T and ZDEPARTMENT_T tables using DEPT_ID.</em><br><br>
-  <img src="screens/dv-01.png" alt="Database View Join Configuration" width="600"/>
+  <img src="Screens/dv-01.png" alt="Database View Join Configuration" width="600"/>
 </p>
 
 <p align="center">
   <em>View Fields configuration displaying all fields from both tables with their respective data types and lengths.</em><br><br>
-  <img src="screens/dv-02.png" alt="View Fields Configuration" width="600"/>
+  <img src="Screens/dv-02.png" alt="View Fields Configuration" width="600"/>
 </p>
 
 <p align="center">
   <em>Sample data showing the combined employee and department information from the database view.</em><br><br>
-  <img src="screens/dv-03.png" alt="View Sample Data" width="600"/>
+  <img src="Screens/dv-03.png" alt="View Sample Data" width="600"/>
 </p>
 
 <hr>
@@ -188,12 +188,12 @@ The SAP Data Dictionary (DDIC) is a crucial component of the SAP system, used to
 
 <p align="center">
   <em>Projection View Configuration (ZEMPLOYEE_T_PV) shows selected employee table fields with their data elements and properties.</em><br><br>
-  <img src="screens/pv-01.png" alt="Projection View Configuration" width="600"/>
+  <img src="Screens/pv-01.png" alt="Projection View Configuration" width="600"/>
 </p>
 
 <p align="center">
   <em>Sample data displaying employee information through the projection view, including personal details and department assignments.</em><br><br>
-  <img src="screens/pv-02.png" alt="Projection View Data" width="600"/>
+  <img src="Screens/pv-02.png" alt="Projection View Data" width="600"/>
 </p>
 
 <hr>
@@ -207,17 +207,17 @@ The SAP Data Dictionary (DDIC) is a crucial component of the SAP system, used to
 
 <p align="center">
   <em>Maintenance View configuration showing the relationship between Employee and Department tables using DEPT_ID as the join condition.</em><br><br>
-  <img src="screens/mv-01.png" alt="Maintenance View Join Configuration" width="600"/>
+  <img src="Screens/mv-01.png" alt="Maintenance View Join Configuration" width="600"/>
 </p>
 
 <p align="center">
   <em>View Fields configuration displaying all fields from both tables with their technical specifications including data elements, types, and lengths.</em><br><br>
-  <img src="screens/mv-02.png" alt="Maintenance View Fields" width="600"/>
+  <img src="Screens/mv-02.png" alt="Maintenance View Fields" width="600"/>
 </p>
 
 <p align="center">
   <em>Sample data display from the Maintenance View (ZEMPLOYEE_T_MV) showing basic employee information like ID, DOB, Gender, and Email.</em><br><br>
-  <img src="screens/mv-03.png" alt="Maintenance View Data" width="600"/>
+  <img src="Screens/mv-03.png" alt="Maintenance View Data" width="600"/>
 </p>
 
 <hr>
@@ -231,12 +231,12 @@ The SAP Data Dictionary (DDIC) is a crucial component of the SAP system, used to
 
 <p align="center">
   <em>Help View join configuration displaying the relationship between Employee and Department tables using DEPT_ID field.</em><br><br>
-  <img src="screens/hv-01.png" alt="Help View Join Configuration" width="600"/>
+  <img src="Screens/hv-01.png" alt="Help View Join Configuration" width="600"/>
 </p>
 
 <p align="center">
   <em>Help View (ZEMPLOYEE_T_HV) field configuration showing selected fields (EMP_ID, EMP_NAME, DEPT_NAME) with their technical details.</em><br><br>
-  <img src="screens/hv-02.png" alt="Help View Fields Configuration" width="600"/>
+  <img src="Screens/hv-02.png" alt="Help View Fields Configuration" width="600"/>
 </p>
 
 
