@@ -216,7 +216,7 @@ The SAP Data Dictionary (DDIC) is a crucial component of the SAP system, used to
 </p>
 
 <p align="center">
-  <em>Sample data display from the Maintenance View (ZEMPLOYEE_T_MV) showing basic employee information like ID, DOB, Gender, and Email.</em><br><br>
+  <em>Sample data display from the Maintenance View (ZEMPLOYEE_T_MV) showing basic employee information and allowing CRUD operations.</em><br><br>
   <img src="Screens/mv-03.png" alt="Maintenance View Data" width="600"/>
 </p>
 
