@@ -150,7 +150,7 @@ The SAP Data Dictionary (DDIC) is a crucial component of the SAP system, used to
 <p align="center">
 *********************************************************************************************************<br>
 *********************************************************************************************************<br>
-**************************************** VIEWS **********************************************************<br>
+*******************************                  VIEWS                    *******************************<br>
 *********************************************************************************************************<br>
 *********************************************************************************************************<br>
 </p>
@@ -238,6 +238,65 @@ The SAP Data Dictionary (DDIC) is a crucial component of the SAP system, used to
 <p align="center">
   <em>Help View (ZEMPLOYEE_T_HV) field configuration showing selected fields (EMP_ID, EMP_NAME, DEPT_NAME) with their technical details.</em><br><br>
   <img src="Screens/hv-02.png" alt="Help View Fields Configuration" width="600"/>
+</p>
+
+<p align="center">
+*********************************************************************************************************<br>
+*********************************************************************************************************<br>
+*********************************** SEARCH HELPS *******************************************************<br>
+*********************************************************************************************************<br>
+*********************************************************************************************************<br>
+</p>
+
+<h2 align="center">Search Help Types Overview</h2>
+
+<h3>Elementary Search Help (ZEMPLOYEE_T_SH)</h3>
+<p>
+An elementary search help provides basic search functionality for employee data. It allows users to search using key employee fields:
+- EMP_ID: Employee identification number
+- EMP_NAME: Employee full name
+- DEPT_NAME: Department name
+Key features:
+- Hot key: 'E' for quick access
+- Immediate value display
+- Supports proposal search for input fields
+</p>
+
+<p align="center">
+  <em>Elementary Search Help configuration for Employee data showing search parameters and dialog behavior.</em><br><br>
+  <img src="Screens/emp-sh.png" alt="Employee Search Help Configuration" width="600"/>
+</p>
+
+<h3>Elementary Search Help (ZDEPT_T_SH)</h3>
+<p>
+Department search help provides focused search capabilities for department information:
+- DEPT_ID: Department identification number
+- DEPT_NAME: Department name
+Key features:
+- Hot key: 'D' for quick access
+- Direct value display
+- Optimized for department lookups
+</p>
+
+<p align="center">
+  <em>Elementary Search Help configuration for Department data showing search parameters and dialog behavior.</em><br><br>
+  <img src="Screens/dept-sh.png" alt="Department Search Help Configuration" width="600"/>
+</p>
+
+<h3>Collective Search Help (ZEMP_CSH)</h3>
+<p>
+A collective search help that combines both employee and department search capabilities:
+- Integrates employee search help (ZEMPLOYEE_T_SH)
+- Includes department search help (ZDEPT_T_SH)
+Benefits:
+- Unified search interface
+- Flexible search across multiple entities
+- Enhanced user experience with combined search options
+</p>
+
+<p align="center">
+  <em>Collective Search Help configuration showing the integration of both Employee and Department search helps.</em><br><br>
+  <img src="Screens/c-sh.png" alt="Collective Search Help Configuration" width="600"/>
 </p>
 
 
